@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Yuji+Boku&display=swap');
+
+h4{
+    font-family: 'Roboto', sans-serif;
+}
+h5{ 
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: 600;
+    line-height: 1.33333;
+    text-overflow: ellipsis;
+    font-family: "Segoe UI",system-ui,"Apple Color Emoji","Segoe UI Emoji",sans-serif;
+}
+#class1{
+    display: block;
+    font-size: 14px;
+    box-sizing: border-box;
+    font-family: "Segoe UI",system-ui,"Apple Color Emoji","Segoe UI Emoji",sans-serif;
+    color: #242424;
+}
+*{
+    box-sizing: border-box;
+}
+table{
+    border-collapse: collapse;
+    width: 70%;
+    text-align: left;
+    vertical-align: top;
+    font-size: 14px;
+    font-family: "Segoe UI",system-ui,"Apple Color Emoji","Segoe UI Emoji",sans-serif;
+    color: #242424;
+    border-width: 1px;
+}
+th,td{
+    padding: 5px;
+}
+a{
+    font-size: 14px;
+    color: rgba(000,000,200,0.5);
+}
+body{
+    background-color: #fff;
+    padding-left: 20px;
+
+}
+hr{
+    opacity: 0.2;
+}
+ul{
+    list-style-type:symbols('-');
+}
+
+tr:nth-child(odd){
+    background-color: #fbd6cc;
+}
+
+tr:nth-child(even){
+    background-color: #c9dffa;
+}
